@@ -193,51 +193,51 @@ $(function () {
 	*/
 	
 	/* popup image */
-	$('.has-popup-image').magnificPopup({
-		type: 'image',
-		closeOnContentClick: true,
-		mainClass: 'popup-box',
-		image: {
-			verticalFit: true
-		}
-	});
+	// $('.has-popup-image').magnificPopup({
+	// 	type: 'image',
+	// 	closeOnContentClick: true,
+	// 	mainClass: 'popup-box',
+	// 	image: {
+	// 		verticalFit: true
+	// 	}
+	// });
 	
-	/* popup video */
-	$('.has-popup-video').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false,
-		disableOn: 0,
-		mainClass: 'popup-box'
-	});
+	// /* popup video */
+	// $('.has-popup-video').magnificPopup({
+	// 	disableOn: 700,
+	// 	type: 'iframe',
+	// 	removalDelay: 160,
+	// 	preloader: false,
+	// 	fixedContentPos: false,
+	// 	disableOn: 0,
+	// 	mainClass: 'popup-box'
+	// });
 	
-	/* popup music */
-	$('.has-popup-music').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false,
-		disableOn: 0,
-		mainClass: 'popup-box'
-	});
+	// /* popup music */
+	// $('.has-popup-music').magnificPopup({
+	// 	disableOn: 700,
+	// 	type: 'iframe',
+	// 	removalDelay: 160,
+	// 	preloader: false,
+	// 	fixedContentPos: false,
+	// 	disableOn: 0,
+	// 	mainClass: 'popup-box'
+	// });
 	
-	/* popup media */
-	$('.has-popup-media').magnificPopup({
-		type: 'inline',
-		overflowY: 'auto',
-		closeBtnInside: true,
-		mainClass: 'popup-box-inline',
-		callbacks: {
-			open: function() {
-				$('.popup-box-inline .popup-box').slimScroll({
-					height: height+'px'
-				});
-			}
-		}
-	});
+	// /* popup media */
+	// $('.has-popup-media').magnificPopup({
+	// 	type: 'inline',
+	// 	overflowY: 'auto',
+	// 	closeBtnInside: true,
+	// 	mainClass: 'popup-box-inline',
+	// 	callbacks: {
+	// 		open: function() {
+	// 			$('.popup-box-inline .popup-box').slimScroll({
+	// 				height: height+'px'
+	// 			});
+	// 		}
+	// 	}
+	// });
 	
 	
 	/*
