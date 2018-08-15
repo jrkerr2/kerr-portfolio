@@ -290,7 +290,7 @@ $(function () {
 	
 	
 	/*
-		Validate Commect Form
+		Validate Comment Form
 	*/
 	
 	$("#comment_form").validate({
